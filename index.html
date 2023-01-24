@@ -2,38 +2,42 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body onload="randomSong()">
 
 <!-- Add your site or application content here -->
 <center>
-  <p>Best Stock music promt inspiration for music makers!</p>
-  <p>Your prompt is:</p>
-  <h1>
-    <div id="randomSong"></div>
-  </h1>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <p>Best Music Promt inspiration for music makers!</p>
+    <p>Your prompt is:</p>
+    <h1>
+        <div id="randomSong"></div>
+    </h1>
+    <BR>
+    <p>Not inspired?
+        <button onClick="window.location.reload();">Refresh Page</button>
+    </p>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </center>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
@@ -46,6 +50,7 @@
   ga('set', 'anonymizeIp', true);
   ga('set', 'transport', 'beacon');
   ga('send', 'pageview')
+
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
